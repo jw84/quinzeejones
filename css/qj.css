@@ -1,0 +1,75 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-bottom: 20px;
+}
+
+.jumbotron {
+	padding-top: 5%;
+	padding-bottom: 45%;
+	background-image: url('../taro_hero.jpg');
+	background-size: cover;
+}
+
+.jumbotron h1 {
+	font-size: 12rem;
+	letter-spacing: -0.33rem;
+	font-family: 'Amatic SC', cursive;
+	text-align: center;
+	color: white;
+	display: inline;
+	padding-left: 15%;
+}
+
+.tagline {
+	font-size: 2rem;
+	letter-spacing: 0.33rem;
+	font-family: 'Quicksand';
+	font-weight: 100;
+	line-height: 1.5rem;
+	vertical-align: middle;
+	color: white;
+	display: inline-block;
+	padding-left: 2%;
+	text-transform: uppercase;
+}
+
+.container h2 {
+	font-family: 'Quicksand';
+	font-weight: 700;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 0.33rem;
+}
+
+.container h3 {
+	font-family: 'Quicksand';
+	font-weight: 400;
+	text-align: center;
+	font-size: 2rem;
+}
+
+.container h4 {
+	font-size: 2.2rem;
+	font-family: 'Courier';
+	font-weight: 700;
+	text-align: center;
+}
+
+.ghost-btn {
+	padding-left: 60px;
+	padding-right: 60px;
+	background-color: #72d30b;
+	color: white;
+	font-family: 'Quicksand';
+	font-size: 2rem;
+	font-weight: 700;
+	letter-spacing: 0.33rem;
+	text-transform: uppercase;
+}
+
+.container ul {
+	font-size: 1.25rem;
+	font-family: 'Courier';
+	list-style: square;
+	padding-left: 100px;
+}
