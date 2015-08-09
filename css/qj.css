@@ -45,7 +45,8 @@ body {
 	font-family: 'Quicksand';
 	font-weight: 400;
 	text-align: center;
-	font-size: 2rem;
+	font-size: 2.5rem;
+	line-height: 4rem;
 }
 
 .container h4 {
@@ -68,15 +69,29 @@ body {
 }
 
 .container ul {
-	font-size: 1.25rem;
+	font-size: 1.5rem;
 	font-family: 'Courier';
 	list-style: square;
-	padding-left: 100px;
+	padding-left: 80px;
+}
+
+.container table {
+	width: 100%;
+	margin-bottom: 60px;
+}
+
+.container td {
+	font-family: 'Courier';
+	font-size: 2.25rem;
+	padding-left: 50px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-transform: uppercase;
 }
 
 .sosumi {
 	font-family: 'Amatic SC', cursive;
-	font-size: 1.5rem;
+	font-size: 2rem;
 	letter-spacing: 0.15rem;
 	color: #555;
 	text-align: center;
